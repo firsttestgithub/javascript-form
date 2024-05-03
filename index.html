@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Validation</title>
+	<title>Registration Form Validation using JavaScript|| Learning Robo</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h1>Form Validation</h1>
+		</div>
+
+		<form action="" id="form" class="form">
+			<div class="form-control">
+				<input type="text" placeholder="Enter name" id="text" />
+				<div class="icons">
+					<i class="correct fas fa-check"></i>
+					<i class="wrong fas fa-times"></i>
+				</div>
+			
+				<span id="nameError"></span>
+			</div>
+			<div class="form-control">
+				<input type="email" placeholder="Enter email" id="email" />
+				<div class="icons">
+					<i class="correct1 fas fa-check"></i>
+					<i class="wrong1 fas fa-times"></i>
+				</div>
+				<span id="emailError"></span>
+			</div>
+			<div class="form-control">
+				<input type="password" placeholder="Password" id="password" />
+				<div class="icons">
+					<i class="correct2 fas fa-check" ></i>
+					<i class="wrong2 fas fa-times" ></i></div>
+					
+				<span id="passError"></span>
+			</div>
+			<div class="form-control">
+				<input type="password" placeholder="Comfirm Password" id="confirm" />
+				<div class="icons">
+					<i class="correct3 fas fa-check" class="correct"></i>
+					<i class="wrong3 fas fa-times" class="wrong"></i></div>
+					<span id="confirmError"></span>
+			</div>
+			<button id="submitBtn">Submit</button>
+		</form>
+		
+
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>

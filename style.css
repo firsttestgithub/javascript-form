@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+	color: #ffff;
+}
+.wrapper{
+	background-color: black;
+	background-color: black;
+    padding: 20px;
+    width: 30%;
+	border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+    .header h1 {
+       color: #fff;
+    }
+	.form {
+		margin: 0 auto;
+		max-width: 16rem;
+		overflow: auto;
+	}
+	
+	.form-control {
+		margin-bottom: 10px;
+		padding-bottom: 20px;
+		position: relative;
+	}
+		.form-control input {
+			border: 1px solid transparent;
+			border-bottom-color: white;
+			background-color: transparent;
+			color: white;
+			border-radius: 0;
+			font-family: inherit;
+			font-size: 14px;
+			padding: 10px;
+			width: 100%;
+		}
+	
+			.form-control input:focus {
+				outline: 0;
+				border-bottom-color: #777;
+			}
+	
+		.form-control .icons {
+			position: absolute;
+			right: 12px;
+			top:0%;
+			
+		}
+		.form-control .wrong{
+			color: red;
+			font-size: 10px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 8px;
+			display: none;
+		}
+		.form-control .correct{
+			color: green;
+			font-size: 14px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 5px;
+			display: none;
+		}
+		.form-control .wrong1{
+			color: red;
+			font-size: 10px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 8px;
+			display: none;
+		}
+		.form-control .correct1{
+			color: green;
+			font-size: 14px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 5px;
+			display: none;
+		}
+		.form-control .wrong2{
+			color: red;
+			font-size: 10px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 8px;
+			display: none;
+		}
+		.form-control .correct2{
+			color: green;
+			font-size: 14px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 5px;
+			display: none;
+		}
+		.form-control .wrong3{
+			color: red;
+			font-size: 10px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 8px;
+			display: none;
+		}
+		.form-control .correct3{
+			color: green;
+			font-size: 14px;
+			border-radius: 50%;
+			border: 2px solid;
+			padding: 5px;
+			display: none;
+		}
+	.form button {
+		background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+		border-radius: 29px;
+		color: #000;
+		font-size: 1rem;
+		padding: 10px;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.form-control button:focus {
+				outline: 0;
+				border-bottom-color: #777;
+			}
+
+@media screen and (max-width:600px){
+	.wrapper{
+		width: 100%;
+	}
+	span{
+		font-size: 13px;
+		line-height: 30px;
+	}	
+	.form button{
+		margin-top: -7px;
+	}
+}			
